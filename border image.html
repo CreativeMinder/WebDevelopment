@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+#borderimg { 
+  border: 50px solid transparent;
+  padding: 15px;
+  border-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-6eryq27ZjU-8K5WIdxBGxKQuCm0ocTlk4w&s) 30% round;
+}
+#borderstretch { 
+  border: 50px solid transparent;
+  padding: 15px;
+  border-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-6eryq27ZjU-8K5WIdxBGxKQuCm0ocTlk4w&s) 30% stretch;
+}
+</style>
+</head>
+<body>
+
+<h1>The border-image Property</h1>
+
+<p>Here, the middle sections of the image are repeated to create the border:</p>
+<p id="borderimg">border-image: url(border.png) 30 round;</p>
+
+<p>Here, the middle sections of the image are stretched to create the border::</p>
+<p id="borderstretch">border-image: url(border.png) 30 round;</p>
+
+<p>Here is the original image:</p><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-6eryq27ZjU-8K5WIdxBGxKQuCm0ocTlk4w&s">
+</body>
+</html>
+
+
