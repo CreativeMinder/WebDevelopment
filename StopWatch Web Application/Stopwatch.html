@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stopwatch</title>
+    <link href="stropwatch.css" rel="stylesheet">
+    <script src="stopwatch.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Stopwatch</h1>
+        <div class="circle">
+            <div class="needle" id="hourHand"></div>
+            <div class="needle" id="minuteHand"></div>
+            <div class="needle" id="secondHand"></div>
+            <div class="dial"></div>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Horlo%C4%9Do_001.svg/800px-Horlo%C4%9Do_001.svg.png" alt="Clock Face" width="80px" height="80px">
+        </div>
+        <div id="timeDisplay">00:00.00</div>
+        <div id="laps">
+            <!-- Laps will be dynamically added here -->
+        </div>
+        <div class="buttons">
+            <button id="resetBtn" class="btns">
+                <img aria-hidden="true" alt="reset-icon" src="https://openui.fly.dev/openui/24x24.svg?text=🔄" /> Reset
+            </button>
+            <button id="startPauseBtn" class="btns">
+                <img aria-hidden="true" alt="play-icon" src="https://openui.fly.dev/openui/24x24.svg?text=▶️" /> Start
+            </button>
+            <button id="lapBtn" class="btns">
+                <img aria-hidden="true" alt="lap-icon" src="https://openui.fly.dev/openui/24x24.svg?text=🔁" /> Lap
+            </button>
+        </div>        
+    </div>
+</body>
+</html>
