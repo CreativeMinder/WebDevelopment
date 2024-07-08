@@ -1,0 +1,321 @@
+
+#container {
+    border-radius: 10px;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0; /* Light background color */
+}
+
+#header {
+    border: 2px solid gray;
+    box-shadow: 2px 2px 2px 2px rgb(66, 64, 64);
+    padding-left: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    display: flex;
+    font-size: 12px;
+    background-color: #7b5653;
+    color: #533c3b;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    background-image: linear-gradient( #7b5653, #efe9e5);
+}
+
+#head {
+    text-align: center;
+    padding-inline-start: 30px;
+    color: #f8f5f4; 
+}
+
+li {
+    padding: 7px;
+    display: inline;
+}
+
+.get_started {
+    background: linear-gradient(to bottom right, #f0f0f0, #ffffff);
+    color: #533c3b;
+    padding: 5px 5px;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: bold;
+    width: 80%;
+            height: 80%;
+            background: linear-gradient(to bottom right, #f0f0f0, #ffffff);
+            border-radius: 20px;
+            box-shadow: 
+                0 0 10px rgba(255, 0, 0, 0.5),
+                0 10px 20px rgba(182, 115, 39, 0.5),
+                0 20px 40px #ddd1cb(0, 0, 255, 0.5);
+        
+}
+
+.links {
+    color: #f8f5f4;
+    padding: 5px 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.div {
+    padding-left: 15%;
+    text-align: center;
+    float: right;
+    width: 70%;
+}
+
+.image {
+    box-shadow: 2px 2px 2px 2px rgb(66, 64, 64);
+    text-align: center;
+    background-image: url("https://www.crescentcare.org/wp-content/uploads/2020/11/fi.legal_-1024x683.jpg");
+    background-position: center;
+    width: 70%;
+    height: 7cm;
+    margin: auto;
+    padding: 0px 5px;
+    border-radius: 10px;
+    color: #533c3b;
+    margin-top: 100px;
+}
+.image:hover{
+    transform: scale(1.05);
+    box-shadow: 2px 2px 2px 2px rgb(66, 64, 64);
+}
+.set{
+    background-color: #936963; padding: 5px; box-shadow: 2px 2px 2px 2px rgb(66, 64, 64); border-radius: 5px;
+}
+
+.help {
+    margin: 10px;
+    padding: 15px 30px;
+    padding-bottom: 5px;
+    width: 50%;
+    text-align: justify;
+    color: #533c3b;
+}
+
+#mission {
+    margin: 5px;
+    padding: 20px;
+    padding-bottom: 5px;
+}
+
+.mission {
+    display: inline-block;
+    color: #533c3b;
+    border: 2px solid black;
+    margin: 5px;
+    padding: 15px;
+    padding-bottom: 5px;
+    width: 22%;
+    position: relative;
+    border-radius: 8px;
+    height: 420px; /* Set your desired height */
+    box-sizing: border-box;
+    box-shadow: 2px 2px 2px 2px rgb(66, 64, 64);
+    overflow: hidden; /* Hide overflow text */
+    white-space: normal; /* Allow text to wrap */
+    text-overflow: ellipsis; /* Add ellipsis for overflow text */
+    word-wrap: break-word; /* Allow word wrapping for long words */
+}
+
+#team {
+    padding-left: 30px;
+    color: #533c3b;
+}
+
+.team {
+    display: inline-block;
+    margin-right: 35px;
+    color: #533c3b;
+    border: 2px solid black;
+    text-align: center;
+    font-size: 12px;
+    width: 20%;
+    height: 70px; /* Set your desired height */
+    box-sizing: border-box;
+    box-shadow: 2px 2px 2px 2px rgb(66, 64, 64);
+    overflow: hidden; /* Hide overflow text */
+    white-space: normal; /* Allow text to wrap */
+    text-overflow: ellipsis; /* Add ellipsis for overflow text */
+    word-wrap: break-word; /* Allow word wrapping for long words */
+}
+
+.About {
+    display: inline-block;
+    color: #533c3b;
+    border: 2px solid black;
+    margin: 15px;
+    padding: 15px;
+    padding-bottom: 5px;
+    width: 30%;
+    height: 500px; /* Set your desired height */
+    box-sizing: border-box;
+    box-shadow: 2px 2px 2px 2px rgb(66, 64, 64);
+    overflow: hidden; /* Hide overflow text */
+    white-space: normal; /* Allow text to wrap */
+    text-overflow: ellipsis; /* Add ellipsis for overflow text */
+    word-wrap: break-word; /* Allow word wrapping for long words */
+}
+
+#footer {
+    margin: 5px;
+    padding: 5px;
+}
+
+.footer {
+    flex: 1;
+    flex-direction: row;
+    background-color: #b09087;
+    background-image: linear-gradient( #7b5653, #efe9e5);
+    padding-bottom: 0px;
+}
+
+.heading {
+    color: #533c3b;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.footerText {
+    font-size: 12px;
+    text-align: center;
+    margin-top: 10px;
+    color:#533c3b;
+    border-right-width: 3px;
+    border-right-color: white;
+}
+
+.footerLinks {
+    color:#533c3b;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 10px;
+    margin-inline-start: 20px;
+    margin-inline-end: 50px;
+    border-right-width: 3px;
+    border-right-color: white;
+}
+
+.footerLink {
+    color: #533c3b;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 10px;
+    margin-inline-start: 20px;
+    margin-inline-end: 50px;
+    color: white;
+    border-right-width: 3px;
+    border-right-color: white;
+    text-decoration: none;
+    margin: 50px;
+}
+
+.footerLink:visited {
+    background-color: #ddd1cb;
+}
+
+.footerLink:link {
+    color: #eb4c20;
+}
+
+.footerLink:visited {
+    color: #ddd1cb;
+}
+
+.footerLink:hover {
+    color: #3f2c2c;
+}
+
+.footerLink:active {
+    color: #801616b9;
+}
+
+.links:hover {
+    background-color: white;
+    border: 2px solid #A58B8D;
+    border-radius: 5px;
+    color:#533c3b;
+}
+
+.get_started:hover {
+    background-color: gray;
+}
+
+
+
+.mission img {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 8px;
+}
+.mission:hover img {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+.mission h3 {
+    margin-top: 10px;
+    font-size: 1.2em;
+}
+.mission p {
+    font-size: 0.9em;
+    line-height: 1.6;
+}
+
+
+@media (max-width: 768px) {
+    #menu li {
+        display: block;
+        margin: 10px 0;
+    }
+#images{
+    margin-top: 350px;
+}
+    .mission{
+        width: 47%;
+        height: 100%;
+    }
+   .team {
+        width: 40%;
+        height: 100%;
+    }
+    .About {
+        width: 50%;
+        height: 100%;
+        margin-left: 70px;
+    }
+
+    .help .set, .help h5 {
+        display: block;
+        margin: 10px 0;
+    }
+}
+
+@media (max-width: 480px) {
+    #menu .links, .get_started {
+        padding: 10px;
+    }
+
+    .mission, .team {
+        padding: 10px;
+    }
+
+    .help h1, .help p {
+        font-size: 18px;
+    }
+
+    .footerText {
+        font-size: 12px;
+    }
+}
