@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="hero">
+        <div class="container hero__title">
+            <h1>Tic Tac Toe</h1>
+            <div id="setup">
+                <input type="text" id="player1" placeholder="Player 1 Name">
+                <input type="text" id="player2" placeholder="Player 2 Name (or AI)">
+                <br>
+                <button onclick="startGame(false)">Play with Friend</button>
+                <button onclick="startGame(true)">Play with AI</button>
+            </div>
+            <div id="game" style="display:none;">
+                <div id="status"></div>
+                <div class="board" id="board">
+                    <div class="cell" onclick="makeMove(this, 0)"></div>
+                    <div class="cell" onclick="makeMove(this, 1)"></div>
+                    <div class="cell" onclick="makeMove(this, 2)"></div>
+                    <div class="cell" onclick="makeMove(this, 3)"></div>
+                    <div class="cell" onclick="makeMove(this, 4)"></div>
+                    <div class="cell" onclick="makeMove(this, 5)"></div>
+                    <div class="cell" onclick="makeMove(this, 6)"></div>
+                    <div class="cell" onclick="makeMove(this, 7)"></div>
+                    <div class="cell" onclick="makeMove(this, 8)"></div>
+                </div>
+                <p id="status"></p>
+                <button id="returnButton" style="display:none;" onclick="resetGame()">Return</button>
+            </div>
+            <div id="myModal" class="modal">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <h2>Please enter names for both players.</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="cube"></div>
+    <div class="cube1"></div>
+    <div class="cube2"></div>
+    <div class="cube"></div>
+    <div class="cube1"></div>
+    <div class="cube2"></div>
+    <div class="cube"></div>
+    <div class="cube1"></div>
+    <div class="cube2"></div>
+    <div class="cube"></div>
+    <div class="cube1"></div>
+    <div class="cube2"></div>
+    <div class="cube"></div>
+    <div class="cube1"></div>
+    <div class="cube2"></div>
+    <div class="cube"></div>
+    <div class="cube1"></div>
+    <div class="cube2"></div>
+    <div class="cube"></div>
+    <div class="cube1"></div>
+    <div class="cube2"></div>
+    </div>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
