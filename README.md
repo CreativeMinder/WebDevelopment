@@ -8,7 +8,6 @@
 - 📫 You can reach me via:  
    [![Email](https://img.shields.io/badge/Email-raviaiqbal20%40gmail.com-red)](mailto:raviaiqbal20@gmail.com)  
    [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue)](https://www.linkedin.com/in/ravia-iqbal-266992283)
-- 😄 Pronouns: Ravi Malik.  
 - ⚡ Fun fact: I’m also a Canva designer with a keen eye for visual aesthetics!
 
 ---
