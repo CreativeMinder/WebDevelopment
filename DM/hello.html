@@ -1,0 +1,82 @@
+<!DOCTYPE html>  
+<html lang="en">  
+<head>  
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>Animated Statistics Display</title>  
+    <style>  
+        body {  
+            font-family: Arial, sans-serif;  
+            background: url('your-background-image.jpg') no-repeat center center fixed;  
+            background-size: cover;  
+            color: white;  
+            text-align: center;  
+            padding: 50px 0;  
+        }  
+        .stats {  
+            display: flex;  
+            justify-content: center;  
+            gap: 50px;  
+        }  
+        .stat {  
+            background: rgba(0, 0, 0, 0.5);  
+            padding: 20px;  
+            border-radius: 10px;  
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);  
+        }  
+        .stat h2 {  
+            margin: 0;  
+            font-size: 2.5em;  
+        }  
+        .stat p {  
+            margin: 0;  
+            font-size: 1.2em;  
+        }  
+    </style>  
+</head>  
+<body>  
+
+    <div class="stats">  
+        <div class="stat">  
+            <h2 id="listings">0</h2>  
+            <p>Listings</p>  
+        </div>  
+        <div class="stat">  
+            <h2 id="categories">0</h2>  
+            <p>Listing Categories</p>  
+        </div>  
+        <div class="stat">  
+            <h2 id="visitors">0</h2>  
+            <p>Visitors</p>  
+        </div>  
+        <div class="stat">  
+            <h2 id="clients">0</h2>  
+            <p>Happy Clients</p>  
+        </div>  
+    </div>  
+
+    <script>  
+        function animateCount(elementId, targetNumber, duration) {  
+            let start = 0;  
+            const stepTime = Math.abs(Math.floor(duration / targetNumber));  
+            const step = () => {  
+                start += 1;  
+                document.getElementById(elementId).innerText = start;  
+                if (start < targetNumber) {  
+                    setTimeout(step, stepTime);  
+                } else {  
+                    document.getElementById(elementId).innerText = targetNumber + '+';  
+                }  
+            };  
+            setTimeout(step, stepTime);  
+        }  
+
+        window.onload = () => {  
+            animateCount('listings', 90000, 2000);  
+            animateCount('categories', 40000, 2000);  
+            animateCount('visitors', 65000, 2000);  
+            animateCount('clients', 50000, 2000);  
+        };  
+    </script>  
+</body>  
+</html>
